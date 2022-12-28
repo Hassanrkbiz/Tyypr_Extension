@@ -1,27 +1,17 @@
 import React from 'react';
 import logo from '../../assets/img/logo.svg';
-import Greetings from '../../containers/Greetings/Greetings';
+import Container from 'rsuite/Container';
+import Header from 'rsuite/Header';
+import Content from 'rsuite/Content';
+import Footer from 'rsuite/Footer';
 import './Popup.css';
+import Welcome from './screens/welcome';
+
 
 const Popup = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/pages/Popup/Popup.jsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React!
-        </a>
-        <h6 className="text-red-500">The color of this paragraph is defined using Tailwind.</h6>
-        <Greetings />
-      </header>
+      <Welcome />
     </div>
   );
 };
