@@ -5,7 +5,7 @@ import owner from '../../../assets/img/owner..png';
 import tyypr from '../../../assets/img/tyypr..png';
 import tyypr1 from '../../../assets/img/tyypr.svg';
 
-const OwnerPage = () => {
+const OwnerPage = ({ changeScreen }) => {
   return (
     <div className="App">
       <Container>

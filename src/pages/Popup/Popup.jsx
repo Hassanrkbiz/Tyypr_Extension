@@ -11,9 +11,16 @@ import OwnerPage from './screens/ownerPage';
 
 
 const Popup = () => {
+  const [currentScreen, setCurrentScreen] = React.useState('welcome');
+
+  const changeScreen = (scr) => {
+    setCurrentScreen(scr);
+  }
+
   return (
     <div className="App">
-      <Welcome />
+      {currentScreen == 'welcome' ? <Welcome changeScreen={changeScreen} /> : currentScreen == 'owner' ? <OwnerPage changeScreen={changeScreen} /> : currentScreen == 'tyypr' ? <TyyprPage changeScreen={changeScreen} /> : <></>}
+
     </div>
   );
 };

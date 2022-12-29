@@ -5,7 +5,7 @@ import owner from '../../../assets/img/owner..png';
 import tyypr from '../../../assets/img/tyypr..png';
 import tyypr1 from '../../../assets/img/tyypr.svg';
 
-const TyyprPage = () => {
+const TyyprPage = ({ changeScreen }) => {
   return (
     <div className="App">
       <Container>
@@ -49,7 +49,7 @@ const TyyprPage = () => {
           <div>
             <div className='flex flex-row items-end justify-center'>
                 <p className='text-[1.1rem] mr-4 ml-[4.5rem]'>work for more accounts?</p>
-                <p className='text-[1.1rem] text-[#d8e91a86] cursor-pointer'>owner</p>
+                <p className='text-[1.1rem] text-[#d8e91a86] cursor-pointer' onClick={() => {changeScreen('owner')}}>owner</p>
             </div>
           </div>
 
