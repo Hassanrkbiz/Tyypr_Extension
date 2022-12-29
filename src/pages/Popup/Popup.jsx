@@ -6,6 +6,8 @@ import Content from 'rsuite/Content';
 import Footer from 'rsuite/Footer';
 import './Popup.css';
 import Welcome from './screens/welcome';
+import TyyprPage from './screens/tyyprPage';
+import OwnerPage from './screens/ownerPage';
 
 
 const Popup = () => {

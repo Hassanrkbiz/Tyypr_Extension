@@ -7,7 +7,7 @@
   text-align: center;
   height: 100%;
   padding: 10px;
-  background-color: #202020;
+  background-color: #2A2A2A;
   color: white;
 }
 
@@ -47,4 +47,22 @@
 
 .centralize{
   text-align: -webkit-center !important;
+}
+
+.inputSetup{
+  background-color: #222222 !important;
+  border-color: #222222 !important;
+  width: 15rem !important;
+}
+
+.btnSetup{
+  color: #d8e91a86 !important;
+  border-color: #d8e91a86 !important;
+  width: 6rem !important;
+}
+
+.btnSetup:hover{
+  color: #d8e91a86 !important;
+  border-color: #d8e91a86 !important;
+  width: 6rem !important;
 }
